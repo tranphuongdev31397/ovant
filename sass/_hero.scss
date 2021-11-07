@@ -1,0 +1,36 @@
+.hero {
+  position: relative;
+  margin-bottom:200px;
+  .hero__img {
+    display: block;
+    margin-left: auto;
+    border-radius: 5px;
+    width: 65%;
+  }
+  .hero__content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    .hero__title {
+      font-weight: 700;
+      color: $text-gray;
+      font-family: $secondary-font;
+      &.title__frist {
+        font-size: 72px;
+        font-weight: 600;
+        margin-bottom: 40px;
+      }
+      &.title__second {
+        font-size: 150px;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+      }
+    }
+    .hero__link {
+      font-family: $primary-font;
+      color: #6a727f;
+      text-decoration: underline;
+      margin-left: 15px;
+    }
+  }
+}

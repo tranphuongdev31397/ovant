@@ -1,0 +1,28 @@
+//Header
+
+.header__main{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 40px 0;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    .logo__text{
+    margin-left:15px;
+    font-weight: 700;
+    font-size:22px;
+    color:$text-gray;
+    }
+}
+.navigation{
+    display:flex;
+    align-items:center;
+    gap: 0 40px;
+    .phone span{
+        font-weight: 700;
+        color:$text-gray;
+        margin-left:15px;
+    }
+}
